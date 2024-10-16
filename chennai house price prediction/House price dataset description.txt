@@ -1,0 +1,10 @@
+1. price: The price of the property (in lakhs or millions, depending on the context).
+2. area: The size of the property in square feet.
+3. status: Indicates the current status of the property, such as:
+   	Ready to move: The property is completed and available for immediate possession.
+	Under Construction: The property is still under construction and not yet available for possession.
+4. Bhk: The number of bedrooms, halls, and kitchens in the property (commonly referred to as BHK).
+5. bathroom: The number of bathrooms in the property. 
+6. age: The age of the property in years. It could indicate how old the property is, with values like:
+7. location: The geographic location or neighborhood where the property is situated .
+8. builder: The name of the company or developer responsible for constructing the property.

@@ -1,0 +1,17 @@
+1. age: Age of the customer.
+2. job: Job type of the customer (e.g., management, technician, entrepreneur, blue-collar, etc.).
+3. marital: Marital status of the customer (e.g., married, single).
+4. education: Education level (e.g., tertiary, secondary, or unknown).
+5. default: Indicates if the customer has a credit in default (yes or no).
+6. balance: The account balance of the customer in the bank.
+7. housing: Whether the customer has a housing loan (yes or no).
+8. loan: Whether the customer has a personal loan (yes or no).
+9. contact: Contact communication type, likely during the marketing campaign (e.g., phone call, unknown).
+10. day: Last contact day of the month.
+11. month: Last contact month of the year (e.g., may).
+12. duration: Duration of the last contact in seconds.
+13. campaign: Number of contacts performed during this campaign for this client.
+14. pdays: Number of days since the client was last contacted from a previous campaign (-1 means client was not previously contacted).
+15. previous: Number of contacts performed before this campaign (in previous campaigns).
+16. poutcome: Outcome of the previous marketing campaign (e.g., success, failure, unknown).
+17. y: Target variable, indicating whether the client subscribed to a term deposit or not (yes or no).
