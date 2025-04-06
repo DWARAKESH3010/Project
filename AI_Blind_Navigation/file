@@ -48,7 +48,7 @@ An AI-powered navigation assistant for visually impaired users. This system uses
 
 - Python
 - OpenCV
-- YOLOv8n (Ultralytics)
+- YOLOv12n (Ultralytics)
 - Small Language Model (SLM)
 - pyttsx3 / gTTS for Text-to-Speech
 
