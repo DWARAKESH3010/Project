@@ -1,1 +1,69 @@
+# 🧭 AI Blind Navigation System
+
+An AI-powered navigation assistant for visually impaired users. This system uses YOLOv12n for real-time object detection and a Small Language Model (SLM) to generate spoken instructions based on detected objects and estimated distances.
+
+---
+
+## 🔗 Try It on Google Colab
+
+[**Run on Colab**] https://colab.research.google.com/drive/1UekcwKBHDUzJGHCcUrWPpPboE9Ek4_-y?usp=sharing
+
+> Make sure to **upload the required files** in the left-hand file explorer panel after launching the notebook.
+
+---
+
+## 📌 Features
+
+- Real-time object detection using YOLOv12n
+- Frame-by-frame distance estimation with OpenCV
+- Spoken navigation instructions using an SLM
+- Supports both uploaded videos and live camera feed
+
+---
+
+## 📁 Upload Instructions
+
+- **YOLO Model**: Upload `yolov8n.pt` to the `models/` folder or root directory
+- **Videos**: Upload video files (e.g., `video.mp4`) 
+- On **Colab**, use the **left-side file panel** to upload files manually
+
+---
+
+## 🛠️ How to Run
+
+1. **Install dependencies** (already handled in Colab notebook)
+
+2. **Run the notebook cells** step-by-step
+
+3. **Upload the model and video** when prompted
+
+4. The system will:
+   - Detect objects in the video
+   - Estimate distance
+   - Generate spoken navigation guidance (voice alerts)
+
+---
+
+## 🧠 Technologies Used
+
+- Python
+- OpenCV
+- YOLOv8n (Ultralytics)
+- Small Language Model (SLM)
+- pyttsx3 / gTTS for Text-to-Speech
+
+---
+
+
+---
+
+## 👨‍💻 Author
+
+**Dwarakesh S.**  
+Aspiring AI & Machine Learning Engineer    
+[LinkedIn](https://www.linkedin.com/in/dwarakesh-s-298841215/) • [GitHub](https://github.com/DWARAKESH3010)
+
+---
+
+
 
