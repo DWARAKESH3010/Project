@@ -1,0 +1,22 @@
+🧭 AI Blind Navigation System
+An AI-powered navigation assistant designed for visually impaired users. It uses YOLOv8n for real-time object detection and a Small Language Model (SLM) for generating voice-based navigation instructions.
+
+📌 Features
+Real-time object detection with YOLOv12n
+
+Distance estimation from detected objects
+
+Spoken instructions powered by an SLM
+
+Supports both live camera and uploaded videos
+
+🔗 Try it on Google Colab
+Run on Colab
+(Click the link to launch and test the project directly in your browser)
+
+📁 Upload Instructions
+YOLOv8n model: Upload yolov8n.pt to the models/ folder
+
+Test videos: Upload your video files (e.g., test1.mp4) to the videos/ folder
+
+On Colab, use the left panel to upload or mount Google Drive for persistence
